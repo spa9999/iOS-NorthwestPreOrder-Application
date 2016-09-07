@@ -1,0 +1,37 @@
+ [
+  {
+  "Supplier":"Chick-Fil-A",
+  "Location":"Students Union",
+  "Timings": "10:30 a.m. to 10:30 p.m. Monday through Friday, 5 p.m. to 10:30 p.m. Saturday",
+  "Latitude":40.351593,
+  "Longitude":-94.883144
+  },
+  {
+  "Supplier":"Einstein Bros",
+  "Location":"Students Union",
+  "Timings" : "7:30 a.m. to 5 p.m. Monday through Friday",
+  "Latitude":40.351364,
+  "Longitude":-94.883444
+  },
+  {
+  "Supplier":"Zen",
+  "Location":"Students Union",
+  "Timings" : "10:30 a.m. to 10:30 p.m. Monday through Friday, 5 p.m. to 10:30 p.m. Saturday and Sunday",
+  "Latitude":40.351455,
+  "Longitude":-94.883380
+  },
+  {
+  "Supplier":"Starbucks",
+  "Location":"Library",
+  "Timings" : "7:30 a.m. to 9 p.m. Monday through Thursday, 7:30 a.m. to 3 p.m. Friday, 5 to 9 p.m. Sunday",
+  "Latitude":40.353490,
+  "Longitude":-94.885912
+  },
+  {
+  "Supplier":"Papa John’",
+  "Location":"The Station",
+  "Timings" : "10:30 a.m. to midnight Monday through Thursday, 10:30 a.m. to 2 a.m. Friday, 5 p.m. to 2 a.m. Saturday, noon to midnight Sunday",
+  "Latitude":40.354444,
+  "Longitude":-94.888476
+  }
+  ]

@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F21F7541CC0124B00F670A4 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21F7531CC0124B00F670A4 /* OrderDetails.swift */; };
+		7F2F251F1CC04FE4008363A6 /* catering-icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F251E1CC04FE4008363A6 /* catering-icons.png */; };
+		7F2F25211CC05B96008363A6 /* Cloud 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F25201CC05B96008363A6 /* Cloud 2.png */; };
+		7F2F25251CC07AFA008363A6 /* Fast Forward-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F25241CC07AFA008363A6 /* Fast Forward-30.png */; };
+		7F4204971CC686A4003AC646 /* Cloud 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4204961CC686A4003AC646 /* Cloud 3.png */; };
+		7F42049B1CC68943003AC646 /* Cloud 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4204991CC68943003AC646 /* Cloud 5.png */; };
+		7F4204A11CC68A81003AC646 /* Cloud 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4204A01CC68A81003AC646 /* Cloud 4.png */; };
+		7F4204A51CC68C66003AC646 /* Cloud 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4204A41CC68C66003AC646 /* Cloud 6.png */; };
+		7F58BC071C9B647E00A70BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC061C9B647E00A70BF0 /* AppDelegate.swift */; };
+		7F58BC091C9B647E00A70BF0 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC081C9B647E00A70BF0 /* LoginSignUpViewController.swift */; };
+		7F58BC0C1C9B647E00A70BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BC0A1C9B647E00A70BF0 /* Main.storyboard */; };
+		7F58BC0F1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC0D1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodeld */; };
+		7F58BC111C9B647E00A70BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BC101C9B647E00A70BF0 /* Assets.xcassets */; };
+		7F58BC141C9B647E00A70BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BC121C9B647E00A70BF0 /* LaunchScreen.storyboard */; };
+		7F58BC1F1C9B647E00A70BF0 /* Northwest_PreOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC1E1C9B647E00A70BF0 /* Northwest_PreOrderTests.swift */; };
+		7F58BC2A1C9B647E00A70BF0 /* Northwest_PreOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC291C9B647E00A70BF0 /* Northwest_PreOrderUITests.swift */; };
+		7F58BC3A1C9B7A3400A70BF0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC391C9B7A3400A70BF0 /* Accounts.framework */; };
+		7F58BC3C1C9B7A4500A70BF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC3B1C9B7A4500A70BF0 /* CoreGraphics.framework */; };
+		7F58BC3E1C9B7A4D00A70BF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC3D1C9B7A4D00A70BF0 /* CoreLocation.framework */; };
+		7F58BC401C9B7A5B00A70BF0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC3F1C9B7A5B00A70BF0 /* libsqlite3.0.tbd */; };
+		7F58BC421C9B7A6400A70BF0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC411C9B7A6400A70BF0 /* MobileCoreServices.framework */; };
+		7F58BC441C9B7A6B00A70BF0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC431C9B7A6B00A70BF0 /* Security.framework */; };
+		7F58BC461C9B7A7200A70BF0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC451C9B7A7200A70BF0 /* Social.framework */; };
+		7F58BC481C9B7A7900A70BF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC471C9B7A7900A70BF0 /* SystemConfiguration.framework */; };
+		7F58BC521C9B910500A70BF0 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BC511C9B910500A70BF0 /* UserSignUp.swift */; };
+		7F58BC581C9B996C00A70BF0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F58BC571C9B996C00A70BF0 /* WebKit.framework */; };
+		7F9DB88B1CC8942900D4C2B5 /* Cloud 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F9DB88A1CC8942900D4C2B5 /* Cloud 2-1.png */; };
+		7F9DB88D1CC896B300D4C2B5 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9DB88C1CC896B300D4C2B5 /* KinveyKit.framework */; };
+		7FA5DAFA1CBFFFBB00548C4A /* PreOrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5DAF91CBFFFBB00548C4A /* PreOrderConfirmationViewController.swift */; };
+		7FC5F4361CB4A799004FB32F /* Suppliers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5F4351CB4A799004FB32F /* Suppliers.swift */; };
+		7FC5F4381CB4A859004FB32F /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5F4371CB4A859004FB32F /* Supplier.swift */; };
+		7FCA6F0C1CC17D2500AE83EC /* Map Marker-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA6F0B1CC17D2500AE83EC /* Map Marker-25.png */; };
+		7FCA6F0E1CC17E0D00AE83EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCA6F0D1CC17E0D00AE83EC /* MapKit.framework */; };
+		7FCA6F101CC17E1D00AE83EC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA6F0F1CC17E1D00AE83EC /* MapViewController.swift */; };
+		7FCA6F121CC17EDF00AE83EC /* maps.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA6F111CC17EDF00AE83EC /* maps.json */; };
+		7FCA6F141CC1815B00AE83EC /* MapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA6F131CC1815B00AE83EC /* MapData.swift */; };
+		7FCB7E821CBD616E000AF39C /* PreOrderDetailedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCB7E811CBD616E000AF39C /* PreOrderDetailedProductViewController.swift */; };
+		7FD0AE481CB6CB7000D26F59 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0AE471CB6CB7000D26F59 /* Product.swift */; };
+		7FD0AE4A1CB6CC7E00D26F59 /* PreOrderProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0AE491CB6CC7E00D26F59 /* PreOrderProductsViewController.swift */; };
+		7FF0E92F1CBF29BD0023518F /* restaurant-apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF0E92E1CBF29BD0023518F /* restaurant-apps.png */; };
+		7FF0E9311CBF35660023518F /* PreOrderPickUpTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF0E9301CBF35660023518F /* PreOrderPickUpTimeController.swift */; };
+		8486755B1CAB3A7400073134 /* DefaultTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486755A1CAB3A7300073134 /* DefaultTabBarController.swift */; };
+		84D6ABE71CAE3FF100A72717 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6ABE61CAE3FF100A72717 /* Products.swift */; };
+		84E41D321CA1D66800254DB1 /* KinveyOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E41D311CA1D66800254DB1 /* KinveyOperations.swift */; };
+		84E596D11CA0FC1B00553EF0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E596D01CA0FC1B00553EF0 /* Login.swift */; };
+		84EA33151CA3AAE800E6CE02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA33141CA3AAE800E6CE02 /* HomeViewController.swift */; };
+		84EA33171CA3AB0300E6CE02 /* PreOrdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA33161CA3AB0300E6CE02 /* PreOrdeViewController.swift */; };
+		84EA33191CA3AB1C00E6CE02 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA33181CA3AB1C00E6CE02 /* HistoryViewController.swift */; };
+		84EA331B1CA3AB2F00E6CE02 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA331A1CA3AB2F00E6CE02 /* MyProfileViewController.swift */; };
+		84EA33201CA3ACDD00E6CE02 /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA331C1CA3ACDD00E6CE02 /* Home-25.png */; };
+		84EA33211CA3ACDD00E6CE02 /* Past-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA331D1CA3ACDD00E6CE02 /* Past-25.png */; };
+		84EA33221CA3ACDD00E6CE02 /* Service Bell-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA331E1CA3ACDD00E6CE02 /* Service Bell-25.png */; };
+		84EA33231CA3ACDD00E6CE02 /* User Male-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA331F1CA3ACDD00E6CE02 /* User Male-25.png */; };
+		84EA33271CA3C84600E6CE02 /* com.kinvey.KinveyKit.docset in Resources */ = {isa = PBXBuildFile; fileRef = 84EA33261CA3C84600E6CE02 /* com.kinvey.KinveyKit.docset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F58BC1B1C9B647E00A70BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F58BBFB1C9B647E00A70BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F58BC021C9B647E00A70BF0;
+			remoteInfo = "Northwest PreOrder";
+		};
+		7F58BC261C9B647E00A70BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F58BBFB1C9B647E00A70BF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F58BC021C9B647E00A70BF0;
+			remoteInfo = "Northwest PreOrder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F21F7531CC0124B00F670A4 /* OrderDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		7F2F251E1CC04FE4008363A6 /* catering-icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "catering-icons.png"; sourceTree = "<group>"; };
+		7F2F25201CC05B96008363A6 /* Cloud 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 2.png"; sourceTree = "<group>"; };
+		7F2F25241CC07AFA008363A6 /* Fast Forward-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast Forward-30.png"; sourceTree = "<group>"; };
+		7F4204961CC686A4003AC646 /* Cloud 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 3.png"; sourceTree = "<group>"; };
+		7F4204991CC68943003AC646 /* Cloud 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 5.png"; sourceTree = "<group>"; };
+		7F4204A01CC68A81003AC646 /* Cloud 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 4.png"; sourceTree = "<group>"; };
+		7F4204A41CC68C66003AC646 /* Cloud 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 6.png"; sourceTree = "<group>"; };
+		7F58BC031C9B647E00A70BF0 /* Northwest PreOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Northwest PreOrder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F58BC061C9B647E00A70BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F58BC081C9B647E00A70BF0 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		7F58BC0B1C9B647E00A70BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F58BC0E1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Northwest_PreOrder.xcdatamodel; sourceTree = "<group>"; };
+		7F58BC101C9B647E00A70BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F58BC131C9B647E00A70BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F58BC151C9B647E00A70BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F58BC1A1C9B647E00A70BF0 /* Northwest PreOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northwest PreOrderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F58BC1E1C9B647E00A70BF0 /* Northwest_PreOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northwest_PreOrderTests.swift; sourceTree = "<group>"; };
+		7F58BC201C9B647E00A70BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F58BC251C9B647E00A70BF0 /* Northwest PreOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Northwest PreOrderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F58BC291C9B647E00A70BF0 /* Northwest_PreOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Northwest_PreOrderUITests.swift; sourceTree = "<group>"; };
+		7F58BC2B1C9B647E00A70BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F58BC391C9B7A3400A70BF0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7F58BC3B1C9B7A4500A70BF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F58BC3D1C9B7A4D00A70BF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F58BC3F1C9B7A5B00A70BF0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7F58BC411C9B7A6400A70BF0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7F58BC431C9B7A6B00A70BF0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7F58BC451C9B7A7200A70BF0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7F58BC471C9B7A7900A70BF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7F58BC511C9B910500A70BF0 /* UserSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
+		7F58BC571C9B996C00A70BF0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7F9DB88A1CC8942900D4C2B5 /* Cloud 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 2-1.png"; sourceTree = "<group>"; };
+		7F9DB88C1CC896B300D4C2B5 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		7FA5DAF91CBFFFBB00548C4A /* PreOrderConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreOrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		7FC5F4351CB4A799004FB32F /* Suppliers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suppliers.swift; sourceTree = "<group>"; };
+		7FC5F4371CB4A859004FB32F /* Supplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		7FCA6F0B1CC17D2500AE83EC /* Map Marker-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Marker-25.png"; sourceTree = "<group>"; };
+		7FCA6F0D1CC17E0D00AE83EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7FCA6F0F1CC17E1D00AE83EC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7FCA6F111CC17EDF00AE83EC /* maps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = maps.json; sourceTree = "<group>"; };
+		7FCA6F131CC1815B00AE83EC /* MapData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapData.swift; sourceTree = "<group>"; };
+		7FCB7E811CBD616E000AF39C /* PreOrderDetailedProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreOrderDetailedProductViewController.swift; sourceTree = "<group>"; };
+		7FD0AE471CB6CB7000D26F59 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7FD0AE491CB6CC7E00D26F59 /* PreOrderProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreOrderProductsViewController.swift; sourceTree = "<group>"; };
+		7FF0E92E1CBF29BD0023518F /* restaurant-apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant-apps.png"; sourceTree = "<group>"; };
+		7FF0E9301CBF35660023518F /* PreOrderPickUpTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreOrderPickUpTimeController.swift; sourceTree = "<group>"; };
+		8486755A1CAB3A7300073134 /* DefaultTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTabBarController.swift; sourceTree = "<group>"; };
+		84D6ABE61CAE3FF100A72717 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		84E41D311CA1D66800254DB1 /* KinveyOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinveyOperations.swift; sourceTree = "<group>"; };
+		84E596D01CA0FC1B00553EF0 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		84E596D21CA0FE0900553EF0 /* Northwest-PreOrder-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Northwest-PreOrder-Brigding-Header.h"; sourceTree = "<group>"; };
+		84EA33141CA3AAE800E6CE02 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84EA33161CA3AB0300E6CE02 /* PreOrdeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreOrdeViewController.swift; sourceTree = "<group>"; };
+		84EA33181CA3AB1C00E6CE02 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		84EA331A1CA3AB2F00E6CE02 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		84EA331C1CA3ACDD00E6CE02 /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
+		84EA331D1CA3ACDD00E6CE02 /* Past-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Past-25.png"; sourceTree = "<group>"; };
+		84EA331E1CA3ACDD00E6CE02 /* Service Bell-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service Bell-25.png"; sourceTree = "<group>"; };
+		84EA331F1CA3ACDD00E6CE02 /* User Male-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Male-25.png"; sourceTree = "<group>"; };
+		84EA33261CA3C84600E6CE02 /* com.kinvey.KinveyKit.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = com.kinvey.KinveyKit.docset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F58BC001C9B647E00A70BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCA6F0E1CC17E0D00AE83EC /* MapKit.framework in Frameworks */,
+				7F58BC581C9B996C00A70BF0 /* WebKit.framework in Frameworks */,
+				7F58BC481C9B7A7900A70BF0 /* SystemConfiguration.framework in Frameworks */,
+				7F58BC461C9B7A7200A70BF0 /* Social.framework in Frameworks */,
+				7F58BC441C9B7A6B00A70BF0 /* Security.framework in Frameworks */,
+				7F58BC421C9B7A6400A70BF0 /* MobileCoreServices.framework in Frameworks */,
+				7F9DB88D1CC896B300D4C2B5 /* KinveyKit.framework in Frameworks */,
+				7F58BC401C9B7A5B00A70BF0 /* libsqlite3.0.tbd in Frameworks */,
+				7F58BC3E1C9B7A4D00A70BF0 /* CoreLocation.framework in Frameworks */,
+				7F58BC3C1C9B7A4500A70BF0 /* CoreGraphics.framework in Frameworks */,
+				7F58BC3A1C9B7A3400A70BF0 /* Accounts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC171C9B647E00A70BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC221C9B647E00A70BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F58BBFA1C9B647E00A70BF0 = {
+			isa = PBXGroup;
+			children = (
+				7FCA6F0D1CC17E0D00AE83EC /* MapKit.framework */,
+				7F58BC571C9B996C00A70BF0 /* WebKit.framework */,
+				7F58BC471C9B7A7900A70BF0 /* SystemConfiguration.framework */,
+				7F58BC451C9B7A7200A70BF0 /* Social.framework */,
+				7F58BC431C9B7A6B00A70BF0 /* Security.framework */,
+				7F58BC411C9B7A6400A70BF0 /* MobileCoreServices.framework */,
+				7F58BC3F1C9B7A5B00A70BF0 /* libsqlite3.0.tbd */,
+				7F58BC3D1C9B7A4D00A70BF0 /* CoreLocation.framework */,
+				7F58BC3B1C9B7A4500A70BF0 /* CoreGraphics.framework */,
+				7F58BC391C9B7A3400A70BF0 /* Accounts.framework */,
+				7F58BC051C9B647E00A70BF0 /* Northwest PreOrder */,
+				7F58BC1D1C9B647E00A70BF0 /* Northwest PreOrderTests */,
+				7F58BC281C9B647E00A70BF0 /* Northwest PreOrderUITests */,
+				7F58BC041C9B647E00A70BF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F58BC041C9B647E00A70BF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F58BC031C9B647E00A70BF0 /* Northwest PreOrder.app */,
+				7F58BC1A1C9B647E00A70BF0 /* Northwest PreOrderTests.xctest */,
+				7F58BC251C9B647E00A70BF0 /* Northwest PreOrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F58BC051C9B647E00A70BF0 /* Northwest PreOrder */ = {
+			isa = PBXGroup;
+			children = (
+				7F2F25241CC07AFA008363A6 /* Fast Forward-30.png */,
+				7FCA6F111CC17EDF00AE83EC /* maps.json */,
+				7FCA6F0B1CC17D2500AE83EC /* Map Marker-25.png */,
+				7F9DB88A1CC8942900D4C2B5 /* Cloud 2-1.png */,
+				7F4204A41CC68C66003AC646 /* Cloud 6.png */,
+				7F4204991CC68943003AC646 /* Cloud 5.png */,
+				7F4204A01CC68A81003AC646 /* Cloud 4.png */,
+				7F4204961CC686A4003AC646 /* Cloud 3.png */,
+				7F2F25201CC05B96008363A6 /* Cloud 2.png */,
+				7F9DB88C1CC896B300D4C2B5 /* KinveyKit.framework */,
+				84EA33261CA3C84600E6CE02 /* com.kinvey.KinveyKit.docset */,
+				7F2F251E1CC04FE4008363A6 /* catering-icons.png */,
+				7FF0E92E1CBF29BD0023518F /* restaurant-apps.png */,
+				84EA331C1CA3ACDD00E6CE02 /* Home-25.png */,
+				84EA331D1CA3ACDD00E6CE02 /* Past-25.png */,
+				84EA331E1CA3ACDD00E6CE02 /* Service Bell-25.png */,
+				84EA331F1CA3ACDD00E6CE02 /* User Male-25.png */,
+				7F58BC061C9B647E00A70BF0 /* AppDelegate.swift */,
+				7F58BC081C9B647E00A70BF0 /* LoginSignUpViewController.swift */,
+				8486755A1CAB3A7300073134 /* DefaultTabBarController.swift */,
+				7F58BC0A1C9B647E00A70BF0 /* Main.storyboard */,
+				7F58BC101C9B647E00A70BF0 /* Assets.xcassets */,
+				7F58BC121C9B647E00A70BF0 /* LaunchScreen.storyboard */,
+				7F58BC151C9B647E00A70BF0 /* Info.plist */,
+				7F58BC0D1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodeld */,
+				7F58BC511C9B910500A70BF0 /* UserSignUp.swift */,
+				7F21F7531CC0124B00F670A4 /* OrderDetails.swift */,
+				84E596D01CA0FC1B00553EF0 /* Login.swift */,
+				84E596D21CA0FE0900553EF0 /* Northwest-PreOrder-Brigding-Header.h */,
+				84E41D311CA1D66800254DB1 /* KinveyOperations.swift */,
+				84EA33141CA3AAE800E6CE02 /* HomeViewController.swift */,
+				84EA33161CA3AB0300E6CE02 /* PreOrdeViewController.swift */,
+				7FD0AE491CB6CC7E00D26F59 /* PreOrderProductsViewController.swift */,
+				7FCB7E811CBD616E000AF39C /* PreOrderDetailedProductViewController.swift */,
+				7FF0E9301CBF35660023518F /* PreOrderPickUpTimeController.swift */,
+				7FA5DAF91CBFFFBB00548C4A /* PreOrderConfirmationViewController.swift */,
+				84D6ABE61CAE3FF100A72717 /* Products.swift */,
+				7FD0AE471CB6CB7000D26F59 /* Product.swift */,
+				84EA33181CA3AB1C00E6CE02 /* HistoryViewController.swift */,
+				7FCA6F0F1CC17E1D00AE83EC /* MapViewController.swift */,
+				7FCA6F131CC1815B00AE83EC /* MapData.swift */,
+				84EA331A1CA3AB2F00E6CE02 /* MyProfileViewController.swift */,
+				7FC5F4351CB4A799004FB32F /* Suppliers.swift */,
+				7FC5F4371CB4A859004FB32F /* Supplier.swift */,
+			);
+			path = "Northwest PreOrder";
+			sourceTree = "<group>";
+		};
+		7F58BC1D1C9B647E00A70BF0 /* Northwest PreOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F58BC1E1C9B647E00A70BF0 /* Northwest_PreOrderTests.swift */,
+				7F58BC201C9B647E00A70BF0 /* Info.plist */,
+			);
+			path = "Northwest PreOrderTests";
+			sourceTree = "<group>";
+		};
+		7F58BC281C9B647E00A70BF0 /* Northwest PreOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F58BC291C9B647E00A70BF0 /* Northwest_PreOrderUITests.swift */,
+				7F58BC2B1C9B647E00A70BF0 /* Info.plist */,
+			);
+			path = "Northwest PreOrderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F58BC021C9B647E00A70BF0 /* Northwest PreOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F58BC2E1C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrder" */;
+			buildPhases = (
+				7F58BBFF1C9B647E00A70BF0 /* Sources */,
+				7F58BC001C9B647E00A70BF0 /* Frameworks */,
+				7F58BC011C9B647E00A70BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Northwest PreOrder";
+			productName = "Northwest PreOrder";
+			productReference = 7F58BC031C9B647E00A70BF0 /* Northwest PreOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F58BC191C9B647E00A70BF0 /* Northwest PreOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F58BC311C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrderTests" */;
+			buildPhases = (
+				7F58BC161C9B647E00A70BF0 /* Sources */,
+				7F58BC171C9B647E00A70BF0 /* Frameworks */,
+				7F58BC181C9B647E00A70BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F58BC1C1C9B647E00A70BF0 /* PBXTargetDependency */,
+			);
+			name = "Northwest PreOrderTests";
+			productName = "Northwest PreOrderTests";
+			productReference = 7F58BC1A1C9B647E00A70BF0 /* Northwest PreOrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F58BC241C9B647E00A70BF0 /* Northwest PreOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F58BC341C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrderUITests" */;
+			buildPhases = (
+				7F58BC211C9B647E00A70BF0 /* Sources */,
+				7F58BC221C9B647E00A70BF0 /* Frameworks */,
+				7F58BC231C9B647E00A70BF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F58BC271C9B647E00A70BF0 /* PBXTargetDependency */,
+			);
+			name = "Northwest PreOrderUITests";
+			productName = "Northwest PreOrderUITests";
+			productReference = 7F58BC251C9B647E00A70BF0 /* Northwest PreOrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F58BBFB1C9B647E00A70BF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Code Dreamers";
+				TargetAttributes = {
+					7F58BC021C9B647E00A70BF0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7F58BC191C9B647E00A70BF0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7F58BC021C9B647E00A70BF0;
+					};
+					7F58BC241C9B647E00A70BF0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7F58BC021C9B647E00A70BF0;
+					};
+				};
+			};
+			buildConfigurationList = 7F58BBFE1C9B647E00A70BF0 /* Build configuration list for PBXProject "Northwest PreOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F58BBFA1C9B647E00A70BF0;
+			productRefGroup = 7F58BC041C9B647E00A70BF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F58BC021C9B647E00A70BF0 /* Northwest PreOrder */,
+				7F58BC191C9B647E00A70BF0 /* Northwest PreOrderTests */,
+				7F58BC241C9B647E00A70BF0 /* Northwest PreOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F58BC011C9B647E00A70BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4204A11CC68A81003AC646 /* Cloud 4.png in Resources */,
+				7F4204A51CC68C66003AC646 /* Cloud 6.png in Resources */,
+				7FF0E92F1CBF29BD0023518F /* restaurant-apps.png in Resources */,
+				7F58BC141C9B647E00A70BF0 /* LaunchScreen.storyboard in Resources */,
+				84EA33211CA3ACDD00E6CE02 /* Past-25.png in Resources */,
+				84EA33271CA3C84600E6CE02 /* com.kinvey.KinveyKit.docset in Resources */,
+				7FCA6F0C1CC17D2500AE83EC /* Map Marker-25.png in Resources */,
+				7F9DB88B1CC8942900D4C2B5 /* Cloud 2-1.png in Resources */,
+				7F2F251F1CC04FE4008363A6 /* catering-icons.png in Resources */,
+				7F58BC111C9B647E00A70BF0 /* Assets.xcassets in Resources */,
+				7F2F25211CC05B96008363A6 /* Cloud 2.png in Resources */,
+				7F42049B1CC68943003AC646 /* Cloud 5.png in Resources */,
+				7F2F25251CC07AFA008363A6 /* Fast Forward-30.png in Resources */,
+				7F58BC0C1C9B647E00A70BF0 /* Main.storyboard in Resources */,
+				7F4204971CC686A4003AC646 /* Cloud 3.png in Resources */,
+				84EA33231CA3ACDD00E6CE02 /* User Male-25.png in Resources */,
+				7FCA6F121CC17EDF00AE83EC /* maps.json in Resources */,
+				84EA33221CA3ACDD00E6CE02 /* Service Bell-25.png in Resources */,
+				84EA33201CA3ACDD00E6CE02 /* Home-25.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC181C9B647E00A70BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC231C9B647E00A70BF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F58BBFF1C9B647E00A70BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D6ABE71CAE3FF100A72717 /* Products.swift in Sources */,
+				7F58BC521C9B910500A70BF0 /* UserSignUp.swift in Sources */,
+				7FCB7E821CBD616E000AF39C /* PreOrderDetailedProductViewController.swift in Sources */,
+				7FD0AE481CB6CB7000D26F59 /* Product.swift in Sources */,
+				84EA33191CA3AB1C00E6CE02 /* HistoryViewController.swift in Sources */,
+				84E596D11CA0FC1B00553EF0 /* Login.swift in Sources */,
+				7FD0AE4A1CB6CC7E00D26F59 /* PreOrderProductsViewController.swift in Sources */,
+				84EA331B1CA3AB2F00E6CE02 /* MyProfileViewController.swift in Sources */,
+				7FCA6F141CC1815B00AE83EC /* MapData.swift in Sources */,
+				84EA33151CA3AAE800E6CE02 /* HomeViewController.swift in Sources */,
+				7FC5F4361CB4A799004FB32F /* Suppliers.swift in Sources */,
+				7FC5F4381CB4A859004FB32F /* Supplier.swift in Sources */,
+				7FA5DAFA1CBFFFBB00548C4A /* PreOrderConfirmationViewController.swift in Sources */,
+				8486755B1CAB3A7400073134 /* DefaultTabBarController.swift in Sources */,
+				7FCA6F101CC17E1D00AE83EC /* MapViewController.swift in Sources */,
+				7F58BC0F1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodeld in Sources */,
+				84EA33171CA3AB0300E6CE02 /* PreOrdeViewController.swift in Sources */,
+				7F21F7541CC0124B00F670A4 /* OrderDetails.swift in Sources */,
+				7F58BC091C9B647E00A70BF0 /* LoginSignUpViewController.swift in Sources */,
+				7F58BC071C9B647E00A70BF0 /* AppDelegate.swift in Sources */,
+				84E41D321CA1D66800254DB1 /* KinveyOperations.swift in Sources */,
+				7FF0E9311CBF35660023518F /* PreOrderPickUpTimeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC161C9B647E00A70BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F58BC1F1C9B647E00A70BF0 /* Northwest_PreOrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F58BC211C9B647E00A70BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F58BC2A1C9B647E00A70BF0 /* Northwest_PreOrderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F58BC1C1C9B647E00A70BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F58BC021C9B647E00A70BF0 /* Northwest PreOrder */;
+			targetProxy = 7F58BC1B1C9B647E00A70BF0 /* PBXContainerItemProxy */;
+		};
+		7F58BC271C9B647E00A70BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F58BC021C9B647E00A70BF0 /* Northwest PreOrder */;
+			targetProxy = 7F58BC261C9B647E00A70BF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F58BC0A1C9B647E00A70BF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F58BC0B1C9B647E00A70BF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F58BC121C9B647E00A70BF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F58BC131C9B647E00A70BF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F58BC2C1C9B647E00A70BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F58BC2D1C9B647E00A70BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F58BC2F1C9B647E00A70BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+				);
+				INFOPLIST_FILE = "Northwest PreOrder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Northwest PreOrder/Northwest-PreOrder-Brigding-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F58BC301C9B647E00A70BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+					"$(PROJECT_DIR)/Northwest",
+					PreOrder,
+				);
+				INFOPLIST_FILE = "Northwest PreOrder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Northwest PreOrder/Northwest-PreOrder-Brigding-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F58BC321C9B647E00A70BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Northwest PreOrderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Northwest PreOrder.app/Northwest PreOrder";
+			};
+			name = Debug;
+		};
+		7F58BC331C9B647E00A70BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Northwest PreOrderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Northwest PreOrder.app/Northwest PreOrder";
+			};
+			name = Release;
+		};
+		7F58BC351C9B647E00A70BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Northwest PreOrderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Northwest PreOrder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7F58BC361C9B647E00A70BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Northwest PreOrderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeDreamers.Northwest-PreOrderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Northwest PreOrder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F58BBFE1C9B647E00A70BF0 /* Build configuration list for PBXProject "Northwest PreOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F58BC2C1C9B647E00A70BF0 /* Debug */,
+				7F58BC2D1C9B647E00A70BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F58BC2E1C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F58BC2F1C9B647E00A70BF0 /* Debug */,
+				7F58BC301C9B647E00A70BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F58BC311C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F58BC321C9B647E00A70BF0 /* Debug */,
+				7F58BC331C9B647E00A70BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F58BC341C9B647E00A70BF0 /* Build configuration list for PBXNativeTarget "Northwest PreOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F58BC351C9B647E00A70BF0 /* Debug */,
+				7F58BC361C9B647E00A70BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F58BC0D1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F58BC0E1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodel */,
+			);
+			currentVersion = 7F58BC0E1C9B647E00A70BF0 /* Northwest_PreOrder.xcdatamodel */;
+			path = Northwest_PreOrder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F58BBFB1C9B647E00A70BF0 /* Project object */;
+}
